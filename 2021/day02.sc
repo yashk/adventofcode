@@ -1,5 +1,5 @@
 # part one
-val lines = scala.io.Source.fromFile("./input/day02/aoc_2021_day_2_input.txt").getLines
+val lines = scala.io.Source.fromFile("./input/day02/aoc_2021_day_2_input.txt").getLines.toList
 val parsed = lines.map(s => {
     val t = s.split(" ")
     (t(0), t(1).toInt)
